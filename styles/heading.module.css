@@ -1,0 +1,43 @@
+.headingContainer{
+    padding: 0;
+}
+
+
+
+.headingContainer p {
+
+text-align: justify;
+}
+
+.cartItem {
+    cursor: pointer;
+}
+
+  
+.catItem  h4{
+ font-weight: 400;
+}
+.catItem img {
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.catItem span button {
+    width: 100%;
+    border-style: none;
+    color: #623412;
+    border: 1px solid #623412;
+ padding: 3px 0;
+}
+
+
+.catItem span button:hover{
+    background: #d1411e;
+  color: white;
+    transition: 0.2s;
+}
+.catItem span button a{
+text-decoration: none;
+color: unset;
+}

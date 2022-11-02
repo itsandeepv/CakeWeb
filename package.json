@@ -1,0 +1,26 @@
+{
+  "name": "pizzaapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "reactstrap": "^9.1.4",
+    "remixicon": "^2.5.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.20",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
+  }
+}

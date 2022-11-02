@@ -1,0 +1,168 @@
+.navbar_container {
+    background: #d1411e;
+    color: white;
+    height: 100px;
+    width: 100%;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.item:nth-child(2) {
+    flex: 1;
+    background: white;
+
+}
+
+.callButton {
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    /* margin-right: 1rem; */
+    cursor: pointer;
+
+}
+
+.callButton i {
+    cursor: pointer;
+
+    color: #d1411e;
+    font-size: 2rem;
+}
+.callButton i:hover {
+    zoom: 1.4;
+    transition: 0.4s;
+
+}
+.texts {
+    margin-left: 20px;
+    color: white;
+
+}
+
+.texts a{
+    color: unset;
+}
+.texts a:hover{
+    zoom: 1.6;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.texts:first-child {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+.texts:last-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    align-items: baseline;
+}
+
+.listItem span {
+    font-size: 2rem;
+    font-style: italic;
+    padding: 10px;
+
+}
+
+
+.navbar_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.cart span i {
+    font-size: 2rem;
+    padding: 0 14px;
+    cursor: pointer;
+
+}
+
+
+.cart {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.listItem {
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    bottom: 0px;
+    margin: 0.9rem;
+    font-weight: 500;
+}
+
+.listItem a{
+text-decoration: none;
+color: unset;
+}
+
+
+
+
+
+.counter {
+    position: relative;
+    font-size: 1.3rem;
+    left: -15px;
+    top: -5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .texts {
+        font-size: 8px;
+    }
+
+    .menu {
+        display: none;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 772px) {
+    
+
+    .texts {
+        font-size: 4px;
+    }
+
+}

@@ -1,0 +1,31 @@
+.footerContainer{
+    padding-top: 30px;
+    margin-top: 25px;
+    border-top: 1px solid #623412;
+}
+
+
+
+
+.footerContainer{
+    background: #623412;
+    color: white;
+}
+
+
+.footerItem{
+    border: 25px solid #7A553B;
+    padding: 12px;
+    border-radius: 60px 6px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+
+.footerItem  span a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+}
